@@ -26,5 +26,3 @@ const Header = () => {
 };
 Header.whyDidYouRender = true;
 ```
-
-- web remove TODOs

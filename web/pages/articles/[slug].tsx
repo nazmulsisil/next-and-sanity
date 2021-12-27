@@ -186,8 +186,6 @@ export default function Page({ data, preview }: PageProps) {
             </Link>
           )}
 
-          {/* // TODO: connect cover image from next.js-examples-cms-sanity repo on the other other computer , may that will look good as a thumbnail for the embedded links of this page on another website?*/}
-
           {page?.title && <h1>{page?.title}</h1>}
 
           {page?.heroImage && (
