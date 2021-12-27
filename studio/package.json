@@ -1,0 +1,47 @@
+{
+  "name": "typingmentor",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Md Nazmul Hoque Bhuiyan <sisil8sisil@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build",
+    "codegen": "sanity-codegen"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "2.23.2",
+    "@sanity/core": "2.23.2",
+    "@sanity/default-layout": "2.23.2",
+    "@sanity/default-login": "2.23.2",
+    "@sanity/desk-tool": "2.23.2",
+    "@sanity/production-preview": "2.15.0",
+    "@sanity/vision": "2.23.2",
+    "prop-types": "15.7",
+    "react": "17.0",
+    "react-dom": "17.0",
+    "sanity-plugin-autocomplete-tags": "1.0.2",
+    "sanity-plugin-content-calendar": "1.2.2",
+    "sanity-plugin-media": "1.4.4",
+    "styled-components": "5.2.0"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1",
+    "sanity-codegen": "0.9.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nazmulsisil/typing-mentor-next.git"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "semi": false,
+    "printWidth": 80
+  }
+}

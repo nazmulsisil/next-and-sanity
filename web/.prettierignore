@@ -1,0 +1,8 @@
+# don't ever format node_modules
+node_modules
+# don't format build output (make sure it's set to your correct build folder name)
+dist
+# don't format nyc coverage output
+coverage
+#.next
+.next
