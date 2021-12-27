@@ -8,7 +8,7 @@ This app is to be deployed on Vercel.
 
 ### CMS
 
-Sanity.io has been used as the CMS. The articles should be published through this for the ease of the content writers for content marketing.
+Sanity.io has been used, the articles should be published using Sanity studio.
 
 Also a cron-job has been created for the content writers so that they can set up the schedule for their drafted posts to be published.
 
